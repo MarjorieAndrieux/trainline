@@ -1,0 +1,124 @@
+/*_____________________________________wallpaper_____________________________________*/
+body{
+    background-image: url(logos/cover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-position:right top;*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/*_________________________________barre de navigation______________________________*/
+
+#navigation{
+    background-color: #204F60;
+    opacity: 0.9;
+}
+
+#inscription{
+    background-color: #01C3A7;
+    border: #01C3A7;
+    margin-left: 75%;
+}
+
+#connexion{
+    background-color: #01C3A7;
+    border: #01C3A7;
+    margin-left: 2%;
+}
+
+#aide{
+    font-size: 50%;
+    font-weight: bold;
+    color: white;
+    margin-left: 3%;
+}
+
+/*_________________________________Titre______________________________*/
+
+#titre{
+    color: white;
+    margin-top: 2%;
+}
+
+#cartes{
+    margin-top: 2%;
+}
+/*_________________________________Formulaire______________________________*/
+
+#formulaire{
+    width: 35%;
+    margin-left: 14%;
+}
+
+#reduction{
+    color: #01C3A7;
+}
+
+#rechercher{
+    background-color: #01C3A7;
+    border: #01C3A7;
+    color: white;
+}
+
+/*_________________________________petitplus______________________________*/
+
+#petitplus{
+    width: 35%;
+    margin-right: 14%;
+}
+
+#titrecard{
+    background-color: #204F60;
+    border: #204F60;
+    color: white;
+}
+
+#cartes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus{
+    color: #01C3A7;
+}
+
+/*_________________________________partenaire______________________________*/
+
+#partenaire{
+    width: 72%;
+    margin-left: 14%;
+    margin-top: 4%;
+}
+
+#partenaire_titre1{
+    text-align: center;
+    color: #c1c1c2;
+}
+
+#partenaire_logo{
+    text-align: center;
+}
+
+#partenaire_titre2{
+    text-align: center;
+    color: #204F60;
+    font-weight: bolder;
+}
+
+#partenaire_text{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #c1c1c2;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/*_________________________________grille______________________________*/
+
+#grille_image1{
+    background-position: 50% 50%;
+}

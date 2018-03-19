@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Trainline</title>
+</head>
+
+<body>
+    <div id="wallpaper">
+
+        <div id="navigation">
+            <nav class="navbar">
+                <span class="navbar-brand mb-0 h1">
+                    <img src="logos/trainline-logo.svg">
+                    <button id="inscription" class="btn btn-primary" type="submit">CRÉER UN COMPTE</button>
+                    <button id="connexion" class="btn btn-primary" type="submit">SE CONNECTER</button>
+                    <a id="aide" href="">AIDE</a>
+                </span>
+            </nav>
+        </div>
+
+
+        <div id="titre" class="text-center">
+            <h2>Réservez vos billets de train. En France et en Europe</h2>
+            <h5>Voyagez avec Trainline, leader indépendant de la vente de billet de train en Europe</h5>
+        </div>
+
+
+        <div id="cartes">
+            <div id="formulaire">
+
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <p>Quel est votre voyage?</p>
+                                <label for="exampleInputEmail1"></label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Saisissez votre gare de départ...">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Saisissez votre gare d'arrivée...">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1"></label>
+                                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="aller">
+                                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="retour">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1"></label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="1 Adulte (26-59)">
+                            </div>
+                            <div id="validation">
+                                <a id="reduction" href="">Utiliser un code de réduction</a>
+                                <button id="rechercher" type="submit" class="btn btn-primary">Rechercher</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="petitplus" <div class="card">
+                <div id="titrecard" class="card-header">
+                    Les petits plus de Trainline
+                </div>
+                <div class="card-body">
+                    <div id="plus1">
+                        <h5 class="plus">Vos billets au meilleur prix</h5>
+                        <p>Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</p>
+                    </div>
+                    <div id="plus2">
+                        <h5 class="plus">Cartes de réduction</h5>
+                        <p>Elles sont toutes acceptées, comme vos cartes de fidélité.</p>
+                    </div>
+                    <div id="plus3">
+                        <h5 class="plus">Payez en toute sécurité</h5>
+                        <p>CB, Amex, PayPal, Chèques-Vacances ANCV : c’est vous qui voyez.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="partenaire">
+
+            <div class="card">
+                <div class="card-body">
+                    <div id="partenaire_titre1">
+                        <h5 class="card-title">Ils nous font confiance. Nous vendons leurs billets.</h5>
+                    </div>
+                    <div id="partenaire_logo">
+                        <img src="logos/Capture du 2018-03-19 12-43-09.png">
+                    </div>
+
+                    <div id="partenaire_titre2">
+                        <h3 class="card-title">Tous les billets. Un seul guichet.</h3>
+                    </div>
+
+                    <div id="partenaire_text">Nous vendons tous les billets que vous avez l’habitude d’acheter en France et tous ceux dont vous pourriez
+                        avoir besoin à l’étranger.</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="grille" class="container">
+        <div class="row">
+            <div class="col">
+                <img id="grille_image1" src="logos/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg">
+            </div>
+            <div class="col">
+                <h3>C’est simple et c’est tout.</h3>
+                <p>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons les prix
+                    de plusieurs transporteurs, pour que vous n’ayez pas à le faire.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3>La très grande vitesse. Dès l’achat du billet.</h3>
+                <p>Trouvez et payez vos billets sur notre site en moins de temps qu’il n’en faut pour perdre patience sur un
+                    site ordinaire. Soit à peu près 58 secondes.</p>
+            </div>
+            <div class="col">
+                <img src="logos/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="logos/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg">
+            </div>
+            <div class="col">
+                <h3>Sans pub et sans reproche.</h3>
+                <p>En choisissant de ne vendre que des billets, nous avons dû laisser certaines choses de côté, comme les publicités, les messages et les erreurs incompréhensibles.</p>
+            </div>
+        </div>
+
+        <div id="modalite"></div>
+
+        <div id="pass"></div>
+
+        <div id="avis"></div>
+
+        <div id="montez"></div>
+
+        <div id="footer"></div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="js/anim.js"></script>
+</body>
+
+</html>
